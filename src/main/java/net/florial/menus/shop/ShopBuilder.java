@@ -202,7 +202,6 @@ public class ShopBuilder {
                 ShopMenu.arrangeItem(100000, new ItemStack(Material.NETHER_STAR)),
                 ShopMenu.arrangeItem(50000, new ItemStack(Material.WITHER_SKELETON_SKULL)),
                 ShopMenu.arrangeItem(1100000, new ItemStack(Material.BEACON)),
-                ShopMenu.arrangeItem(25000, new ItemStack(Material.ENDER_EYE)),
                 ShopMenu.arrangeItem(75000, new ItemStack(Material.DIAMOND)),
                 ShopMenu.arrangeItem(6000, new ItemStack(Material.EMERALD)),
                 ShopMenu.arrangeItem(250000, new ItemStack(Material.SCULK_SENSOR)),
@@ -215,7 +214,7 @@ public class ShopBuilder {
         ));
         priceLists.put(6, List.of(
                 100000, 50000, 1100000,
-                25000, 75000, 6000, 250000, 200000, 300000, 10000, 350000
+                75000, 6000, 250000, 200000, 300000, 10000, 350000
 
         ));
     }
